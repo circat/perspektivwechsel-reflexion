@@ -20,6 +20,12 @@ Der Score ist eine nachvollziehbare **Reflexionshilfe**, keine klinische, forens
 
 Für Betroffene oder Zeug:innen antisemitischer Vorfälle verlinkt die App auf [RIAS](https://report-antisemitism.de/) und [OFEK](https://ofek-beratung.de/). OFEK bietet in Deutschland professionelle, vertrauliche und mehrsprachige Beratung.
 
+## Frageschema
+
+Statt direkter Bekenntnissätze nutzt der Katalog kurze Alltagssituationen: Chatgruppen, Nachbarschaft, Schule oder Hochschule, Arbeit und öffentliche Reaktionen auf Vorfälle. Jede der fünf Allport-orientierten Kategorien umfasst vier Items. Die Zustimmung zu einem Item zeigt nicht „was jemand ist“, sondern markiert einen konkreten Reflexionspunkt – etwa die Verharmlosung eines Stereotyps, die Akzeptanz von Ausschluss oder die Legitimation von Gewalt.
+
+Eine Frage behandelt die pauschale Aberkennung jüdischer Selbstbestimmung bzw. des Existenzrechts Israels. Sie zielt nicht auf Kritik an israelischer Regierungspolitik, sondern auf das generelle Absprechen staatlicher Existenz. Diese Unterscheidung ist an der [IHRA-Arbeitsdefinition](https://holocaustremembrance.com/resources/working-definition-antisemitism) orientiert und wird im Ergebnisrahmen ausdrücklich erklärt.
+
 ## Berechnung
 
 Jede Antwort hat einen Wert von 1 (stimme überhaupt nicht zu) bis 5 (stimme voll zu). Je Bereich werden vier Antworten summiert und gewichtet:
