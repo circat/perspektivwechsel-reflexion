@@ -1,4 +1,4 @@
-# Perspektivwechsel
+# Perspectives
 
 Eine statische, datensparsame Selbstreflexions-App zu antisemitischen Deutungs- und Handlungsmustern. Sie ist bewusst als **erste psychoedukative App**, nicht als validierter Persönlichkeitstest oder Risikoinstrument konzipiert.
 
