@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Ein datensparsames Reflexionsinstrument zum Erkennen antisemitischer Denkmuster und Handlungsakzeptanz." />
+    <title>Perspektivwechsel – Reflexion zu Antisemitismus</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>.gauge-seg{fill:none;stroke-width:25;stroke-dasharray:19 81}.s1{stroke:#20a36a}.s2{stroke:#82c751;stroke-dashoffset:-20}.s3{stroke:#eabf35;stroke-dashoffset:-40}.s4{stroke:#e98536;stroke-dashoffset:-60}.s5{stroke:#df5360;stroke-dashoffset:-80}</style>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Zum Inhalt springen</a>
+    <header class="site-header">
+      <a class="brand" href="#" aria-label="Perspektivwechsel – Startseite"><span aria-hidden="true">✦</span> PERSPEKTIVWECHSEL</a>
+      <p>Privat. Lokal. Ohne Konto.</p>
+    </header>
+    <main id="main" class="shell">
+      <section id="intro" class="intro panel">
+        <p class="eyebrow">Reflexionsinstrument</p>
+        <h1>Was zeigt dein Umgang mit antisemitischen Aussagen?</h1>
+        <p class="lead">20 Aussagen laden zur Selbstreflexion ein. Das Ergebnis ist keine Diagnose und keine Aussage über deinen Charakter – es zeigt lediglich, bei welchen Mustern sich eine vertiefende Auseinandersetzung lohnen kann.</p>
+        <div class="notice"><strong>Wichtiger Rahmen:</strong> Kritik an israelischer Regierungspolitik ist nicht per se antisemitisch. Entscheidend sind Kontext, Maßstab und ob Jüdinnen und Juden kollektiv verantwortlich gemacht werden.</div>
+        <div class="intro-actions"><button class="button primary" id="start-button">Test starten <span aria-hidden="true">→</span></button><a class="button ghost" href="#methodik">So funktioniert es</a></div>
+        <p class="microcopy">Deine Antworten verlassen dieses Gerät nicht. Dauer: ca. 5 Minuten.</p>
+      </section>
+
+      <section id="methodik" class="method panel">
+        <p class="eyebrow">Orientierung statt Etikett</p>
+        <h2>Fünf Formen feindseliger Haltung</h2>
+        <p>Die Themenbereiche orientieren sich an Allports historischer Skala der Vorurteilsmanifestationen. Sie sind kein lineares Prognosemodell für einzelne Personen.</p>
+        <div id="stage-overview" class="stage-overview"></div>
+      </section>
+
+      <section id="quiz" class="quiz panel" hidden aria-live="polite">
+        <div class="quiz-topline"><span id="question-count">Aussage 1 von 20</span><span id="stage-label">Bereich 1</span></div>
+        <div class="progress" aria-label="Fortschritt"><span id="progress-bar"></span></div>
+        <p class="eyebrow" id="question-stage"></p>
+        <h2 id="question-text"></h2>
+        <fieldset id="answers" class="answers"><legend>Wie sehr stimmst du zu?</legend></fieldset>
+        <div class="quiz-actions"><button class="button ghost" id="back-button">← Zurück</button><button class="button primary" id="next-button" disabled>Weiter →</button></div>
+      </section>
+
+      <section id="result" class="result panel" hidden tabindex="-1">
+        <p class="eyebrow">Deine Auswertung</p>
+        <h2>Dein Reflexionsprofil</h2>
+        <p id="result-summary" class="lead"></p>
+        <div class="result-grid">
+          <div class="gauge-card"><div class="gauge" aria-label="Einordnung auf einer Skala von 1 bis 125"><svg viewBox="0 0 300 170" role="img"><path class="gauge-track" d="M 30 145 A 120 120 0 0 1 270 145" pathLength="100"/><path class="gauge-seg s1" d="M 30 145 A 120 120 0 0 1 270 145" pathLength="100"/><path class="gauge-seg s2" d="M 30 145 A 120 120 0 0 1 270 145" pathLength="100"/><path class="gauge-seg s3" d="M 30 145 A 120 120 0 0 1 270 145" pathLength="100"/><path class="gauge-seg s4" d="M 30 145 A 120 120 0 0 1 270 145" pathLength="100"/><path class="gauge-seg s5" d="M 30 145 A 120 120 0 0 1 270 145" pathLength="100"/><line id="needle" x1="150" y1="145" x2="150" y2="56"/><circle cx="150" cy="145" r="8"/></svg><div class="score"><span id="score-value">1</span><small>von 125</small></div></div></div>
+          <div class="breakdown"><h3>Einordnung nach Bereichen</h3><div id="breakdown-bars"></div></div>
+        </div>
+        <article id="reflection" class="reflection"></article>
+        <div class="resource-grid">
+          <a href="https://report-antisemitism.de/" target="_blank" rel="noreferrer"><strong>RIAS</strong><span>Vorfälle dokumentieren und einordnen</span></a>
+          <a href="https://ofek-beratung.de/" target="_blank" rel="noreferrer"><strong>OFEK</strong><span>Beratung bei antisemitischer Gewalt und Diskriminierung</span></a>
+          <a href="https://www.bpb.de/themen/rechtsextremismus/dossier-rechtsextremismus/" target="_blank" rel="noreferrer"><strong>Weiterlesen</strong><span>Material der Bundeszentrale für politische Bildung</span></a>
+        </div>
+        <div class="result-actions"><button class="button primary" id="restart-button">Neu starten</button><button class="button ghost" id="print-button">Auswertung drucken</button></div>
+      </section>
+    </main>
+    <footer>Entwickelt als erste psychoedukative Web-App · <a href="README.md">Methodik &amp; Transparenz</a></footer>
+    <script src="app.js"></script>
+  </body>
+</html>
