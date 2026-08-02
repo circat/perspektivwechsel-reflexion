@@ -12,7 +12,7 @@ Eine statische, datensparsame Selbstreflexions-App zu antisemitischen Deutungs- 
 
 ## Fachliche Grundlage und Grenzen
 
-Die fünf Bereiche beziehen sich auf Gordon Allports Beschreibung von Vorurteilsmanifestationen (Sprache, Vermeidung, Diskriminierung, physischer Angriff, Vernichtung) aus *The Nature of Prejudice* (1954). Das Modell dient hier zur pädagogischen Strukturierung; es ist **keine kausale Stufenfolge** und sagt bei Einzelpersonen keine zukünftliche Handlung voraus.
+Die fünf Bereiche beziehen sich auf Gordon Allports Beschreibung von Vorurteilsmanifestationen (Sprache, Vermeidung, Diskriminierung, physischer Angriff, Vernichtung) aus *The Nature of Prejudice* (1954). Das Modell dient hier zur pädagogischen Strukturierung; es ist **keine kausale Stufenfolge** und sagt bei Einzelpersonen keine zukünftige Handlung voraus.
 
 Die Aussagen wurden an der nicht rechtsverbindlichen [IHRA-Arbeitsdefinition](https://holocaustremembrance.com/resources/working-definition-antisemitism) orientiert. Sie behandeln Verschwörungsmythen, Kollektivschuld, Holocaustrelativierung, Diskriminierung und Gewaltlegitimation. Die App trennt ausdrücklich Kritik an konkreter israelischer Regierungspolitik von antisemitischen Kollektivzuschreibungen.
 
@@ -47,7 +47,7 @@ Dann `http://localhost:8080` öffnen.
 ## Cloudflare Pages Deployment
 
 1. Bei Cloudflare ein Pages-Projekt anlegen und dieses GitHub-Repository verbinden.
-2. Als Produktionsbranch `main` wählen.
+2. Als Produktionsbranch `master` wählen.
 3. Build command leer lassen; Build output directory ist `.`.
 4. Alternativ nach `wrangler login` direkt deployen:
 
